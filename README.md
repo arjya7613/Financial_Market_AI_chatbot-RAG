@@ -16,7 +16,8 @@ Financial Market Intelligence - RAG pipeline/
 │   └── index.pkl
 │
 ├── ingest.py
-├── rag_pipeline.py
+├── main.py
+├── rag_pipeline1.py
 ├── rag_evaluation.py
 ├── streamlit_app.py
 ├── requirements.txt
