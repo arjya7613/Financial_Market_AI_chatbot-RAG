@@ -51,9 +51,9 @@ jobs:
       # TAG IMAGE
       - name: Tag Docker Image
         run: |
-          docker tag financial-rag-chatbot ${{ secrets.DOCKER_USERNAME }}/financial-rag-chatbot:latest
+          docker tag financial-chatbot ${{ secrets.DOCKER_USERNAME }}/financial-chatbot:latest
 
       # PUSH IMAGE
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/financial-rag-chatbot:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/financial-chatbot:latest
