@@ -39,7 +39,7 @@ jobs:
       # BUILD DOCKER IMAGE
       - name: Build Docker Image
         run: |
-          docker build -t financial-rag-chatbot .
+          docker build -t financial-chatbot .
 
       # LOGIN TO DOCKER HUB
       - name: Login to DockerHub
