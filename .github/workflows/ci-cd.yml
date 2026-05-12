@@ -32,9 +32,8 @@ jobs:
       # OPTIONAL: RUN BASIC CHECK
       - name: Verify Streamlit App
         run: |
-          python -m py_compile rag_pipeline.py
+          python -m py_compile rag_pipeline1.py
           python -m py_compile streamlit_app.py
-          python -m py_compile app.py
           python -m py_compile rag_evaluation.py
 
       # BUILD DOCKER IMAGE
